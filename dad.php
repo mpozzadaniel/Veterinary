@@ -86,7 +86,7 @@
         <div class="row mt-3">
             <div class="col-md-6 offset-md-3 testimonial-form">
                 <h2 class="form-title">LEAVE US A TESTIMONY</h2>
-                <form action="process-test.php" method="POST">
+                <form action="proccess-dad.php" method="POST">
                     <div class="form-group name-group">
                         <div>
                             <label for="FirstName">First Name</label>
@@ -100,8 +100,8 @@
                         </div>
                     </div>
                     <div class="form-group">
-                        <label for="Email">Email</label>
-                        <input type="email" id="Email" class="form-control" name="Email" placeholder="Your Email"
+                        <label for="Place">Place</label>
+                        <input type="Text" id="Text" class="form-control" name="Place" placeholder="Your Place"
                             autocomplete="off" required>
                     </div>
                     <div class="form-group">

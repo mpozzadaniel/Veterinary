@@ -10,8 +10,8 @@
         integrity="sha384-GLhlTQ8i6ND87ZlNl3/jzRnI9+JDE5LlE9booIcZgnd5Pq79L4kQF5KdXv8FZ+Tb" crossorigin="anonymous">
     <style>
         body {
-            background-color: #f5f5f5; /* Light Gray */
-            color: #333; /* Dark Gray */
+            background-color: #f5f5f5; 
+            color: #333; 
         }
 
         .container-fluid {
@@ -76,9 +76,10 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-6 mx-auto">
-                <form class="booking-form" action="book-process.php" method="POST">
+                <form class="booking-form" action="proccess-book.php" method="POST">
                     <div class="form-title">
                         <h2>You can Book Now</h2>
+                        <p class="lead">Secure your spot with ease</p>
                     </div>
                     <div class="form-group">
                         <label for="FullName"><i class="fas fa-user"></i> Full Name</label>
