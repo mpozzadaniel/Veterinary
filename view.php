@@ -32,7 +32,9 @@ if(!$result){
                             <?php echo $row['FirstName'] . ' ' . $row['LastName']; ?>
                         </div>
                         <div class="card-body">
-                            <h3 class="card-text"> <?php echo $row['Compliment']; ?></h3>
+                           <blockquote>
+                                <h3 class="card-text" ><q> <?php echo $row['Compliment']; ?></q></h3>
+                           </blockquote>
                             
                         </div>
                         <div class="card-footer">
