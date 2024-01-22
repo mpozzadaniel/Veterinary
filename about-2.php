@@ -25,10 +25,7 @@
       border-radius: 17px;
     }
 
-    .row {
-      margin: 0;
-      padding: 20px;
-    }
+   
 
     h3 {
       margin-bottom: 20px;
@@ -63,11 +60,12 @@
     }
   </style>
   <title>About</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 <body>
   <div class="container-fluid">
     <div class="row" style="background-color:#DBC078; border-radius: 20px;  border:solid green 2px">
-      <?php include("nav.php") ?>
+      <?php include("nav-2.php"); ?>
     </div>
     <div class="row" style="background-color:#EDDFBB; border-radius: 20px; border:solid green 2px">
       <h3>About</h3>
@@ -91,5 +89,6 @@
         <?php include("footer.php") ;?>
     </div>
   </div>
+  <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
