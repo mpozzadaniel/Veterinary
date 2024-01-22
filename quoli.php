@@ -9,9 +9,10 @@
       
 
         h1 {
-            color: #1e90ff;
+            color:chocolate  ;
             text-align: center;
             margin-bottom: 20px;
+    
         }
 
        
@@ -26,9 +27,9 @@
         <div class="row" style="background-color:#DBC078; border-radius: 20px;  border:solid green 2px">
             <?php include("nav-2.php"); ?>
         </div>
-        <div class="row">
+        <div class="row" style="background-color: #b4c3eb; border:2px solid green; border-radius:30px">
         <div >
-            <h1>Qualifications</h1>
+        <u style="color:green;"> <h1><i>Qualifications</i></h1></u>
             <p>Dr Kirabo possesses excellent qualifications and is still advancing in knowledge and skills.</p>
             <p>Master of Veterinary Preventive Medicine (MVPM) Makerere University Kampala</p>
             <p>Bachelor of Veterinary Medicine (BVM) Makerere University Kampala</p>

@@ -14,7 +14,7 @@
             color: white;
             text-align: center;
             padding: 0px;
-           
+           border-radius: 30px;
             bottom: 0;
             width: 100%;
         }
