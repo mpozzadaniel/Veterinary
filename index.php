@@ -6,47 +6,7 @@
     <title>HOME</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
-            color: #333;
-            background-color: #f7f7f7;
-        }
-
-        header {
-            background-color: #2C3E50;
-            color: #fff;
-            padding: 1em;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
-        }
-
-        nav ul {
-            list-style: none;
-            display: flex;
-            margin: 0;
-            padding: 0;
-        }
-
-        nav ul li {
-            margin-right: 20px;
-        }
-
-        nav a {
-            text-decoration: none;
-            color: #fff;
-            font-weight: bold;
-            font-size: 16px;
-            transition: color 0.3s ease;
-        }
-
-        nav a:hover {
-            color: #EC7063;
-        }
-
+        
         .hero {
             position: relative;
             text-align: center;
@@ -78,7 +38,7 @@
 
         .hero p {
             font-size: 30px;
-            color:slategrey;
+            color:darkcyan;
             margin-bottom: 30px;
             font-weight: bold;
         }
@@ -92,7 +52,7 @@
             border-radius: 5px;
             font-size: 18px;
             font-weight: bold;
-            transition: background-color 0.3s ease;
+           
         }
 
         .cta-button:hover {
@@ -118,25 +78,8 @@
             color: #333;
         }
 
-        .about p {
-            font-size: 18px;
-            color: #666;
-            line-height: 1.6;
-        }
-
-        footer {
-            background-color: #2C3E50;
-            color: #fff;
-            text-align: center;
-           
-            bottom: 0;
-            width: 100%;
-        }
-
-        .footer-content {
-            max-width: 800px;
-            margin: 0 auto;
-        }
+       
+       
 
        
     </style>
@@ -144,7 +87,7 @@
 <body>
     <div class="container-fluid">
         <div class="row" style="background-color:#DBC078; border-radius: 20px;  border:solid green 2px">
-            <?php include("nav-2.php"); ?>
+            <?php include("van.php"); ?>
         </div>
         <div class="row">
 

@@ -8,8 +8,8 @@
 </head>
 <body>
     <div class="container-fluid">
-        <div class=row>
-            <?php include("nav-2.php"); ?>
+        <div class="row" style="background-color:#DBC078; border-radius: 20px;  border:solid green 2px">
+            <?php include("van.php"); ?>
         </div>
         <div class="row">
             <h1> Professional experience </h1>

@@ -20,9 +20,15 @@
             background-color: #ffffff; /* White */
             border: 4px solid #ff4081; /* Pink */
             border-radius: 10px;
+           max-width:1000cm;
+           max-height: 600px;
             padding: 30px;
             text-align: center;
             box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+        form{
+            width: 500px;
+            height: 320px;
         }
 
         .form-title {
@@ -84,7 +90,7 @@
 <body>
     <div class="container-fluid">
         <div class="row mt-3">
-            <div class="col-md-6 offset-md-3 testimonial-form">
+            <div class="col-md-12 offset-md-3 testimonial-form">
                 <h2 class="form-title">LEAVE US A TESTIMONY</h2>
                 <form action="proccess-dad.php" method="POST">
                     <div class="form-group name-group">
