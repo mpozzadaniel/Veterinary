@@ -27,7 +27,7 @@
         <div class="row" style="background-color:#DBC078; border-radius: 20px;  border:solid green 2px">
             <?php include("nav-2.php"); ?>
         </div>
-        <div class="row" style="background-color: #b4c3eb; border:2px solid green; border-radius:30px">
+        <div class="row" style="background-color: #b4c3eb; border:2px solid green; border-radius:20px">
         <div >
         <u style="color:green;"> <h1><i>Qualifications</i></h1></u>
             <p>Dr Kirabo possesses excellent qualifications and is still advancing in knowledge and skills.</p>

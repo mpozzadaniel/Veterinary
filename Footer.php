@@ -10,11 +10,11 @@
         }
 
         footer {
-            background-color: #333;
-            color: white;
+            background-color: #2C3E50;
+            color: #fff;
             text-align: center;
-            padding: 0px;
-           border-radius: 30px;
+            padding: 1em;
+            border-radius: 10px;
             bottom: 0;
             width: 100%;
         }
@@ -30,9 +30,15 @@
     </style>
 </head>
 <body>
-    <!-- Your website content goes here -->
+    
+      
+    
 
     <footer>
+        <p><strong>WhatsApp:</strong> +256 708342426</p>
+        <p><strong>Twitter:</strong> <a href="https://twitter.com/drkirabo" target="_blank">@drkirabo</a></p>
+        <p><strong>Email:</strong> <a href="mailto:kirabo58@gmail.com">kirabo58@gmail.com</a></p>
+        <hr>
         <p>&copy; 2024 Dr. KIRABO MARTHA| <a href="#">Privacy Policy</a> Designed by:| <a href="mailto:mpozzadaniel@gmail.com">BYUMA DANIEL MPOZZA</a></p>
     </footer>
 </body>

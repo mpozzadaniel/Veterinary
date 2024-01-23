@@ -20,13 +20,14 @@ if(!$result){
 <body>
     <div class="container-fluid">
         
-        <div class="row" style="background-color:#00ced1;">
+        <div class="row">
             <?php
            
            
             while ($row = mysqli_fetch_assoc($result)) {
             ?>
                 <div class="col-md-4">
+                    <h1>HAPPY CLIENTS</h1>
                     <div class="card" style=" background: linear-gradient(to bottom, #008080, #00CED1);">
                         <div class="card-header" style="background-color:#add8e6">
                             <?php echo $row['FirstName'] . ' ' . $row['LastName']; ?>

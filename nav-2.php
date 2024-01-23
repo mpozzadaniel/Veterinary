@@ -51,13 +51,14 @@
 
         .logo-container img {
             margin-left: 10px;
-            max-width: 15%; /* Adjusted max-width for better responsiveness */
+            max-width: 100%; /* Adjusted max-width for better responsiveness */
+            object-fit: cover;
         }
 
         .navbar {
             background-color: #DBC078 !important;
             color: white;
-            border-radius: 30px;
+            border-radius: 20px !important;
         }
 
         .navbar-toggler-icon {
@@ -109,6 +110,9 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" aria-current="page" href="about-2.php">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="Services.php">SERVICES</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" aria-current="page" href="Book.php">BOOK NOW</a>
