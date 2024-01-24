@@ -35,12 +35,12 @@
   <nav>
     <a href="index.php">HOME</a>
     <a href="exa-2.php">ABOUT</a>
-    <a href="#">CONTACT</a>
+    <a href="#"></a>
     <a href="Book.php">BOOK NOW</a>
     <a href="quoli.php">QUAIFICATIONS</a>
     <a href="Pro.php">PROFFECIANAL EXPRIENCE</a>
     <a href="#"></a>
-    <a href="Contact.php"></a>
+    <a href="Contact.php">CONTACT</a>
   </nav>
     
 </body>

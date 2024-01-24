@@ -36,6 +36,11 @@
       border-radius: 8px;
       position: relative;
     }
+    footer{
+      max-width: 100%;
+      padding: 0px;
+      margin: 0px;
+    }
 
     img {
       max-width: 100%;
@@ -73,14 +78,14 @@
  
 
   <div class="container-fluid">
-    <div class="row" style="background-color:#DBC078; border-radius: 5px;  border:solid green 2px">
+    <div class="row" style=" border-radius: 5px; ">
       <?php include("wed.php"); ?>
     </div>
-    <div class="row about-section">
+    <div class="row about-section"><center>
       <div class="container-img">
-        <img src="fes.jpg" alt="Dr. Kirabo Martha performing surgery">
+       <img src="fes.jpg" alt="Dr. Kirabo Martha performing surgery">
         <div class="img-label">Dr. Kirabo Martha providing surgery</div>
-      </div>
+      </div></center>
       <div class="text">
         <h3>About Dr. Kirabo Martha</h3>
         <p>Dr. Kirabo Martha holds a bachelor's degree in veterinary medicine from Makerere University. Currently, she is delving into the intricacies of Veterinary Preventive Medicine at the same institution, with a focus on epidemiology, disease surveillance, and public health.</p>
@@ -94,7 +99,16 @@
         <h3>Mission</h3>
         <p>To contribute significantly to disease prevention and control strategies in one health.</p>
       </div>
+      
     </div>
+    <div class="row">
+      <center><?php include("cut.php")  ;?></center>
+    </div>
+    <footer>
+        
+      <?php include("footer.php") ;?>
+        
+    </footer>
   </div>
 </body>
 

@@ -9,18 +9,18 @@
     <style>
         body {
             background-color: #f8f9fa; /* Light Gray */
-            color: #495057; /* Dark Gray */
+            color:#ff94ea; /* Dark Gray */
         }
 
         .container-fluid {
-            padding: 20px;
+            padding: 0px;
         }
 
         .contact-form {
-            background-color: #ffffff; /* White */
-            border: 4px solid #007bff; /* Blue */
+            background-color: #ffd5ec; /* White */
+            border: 2px solid #ff94b5; /* Blue */
             border-radius: 10px;
-            padding: 30px;
+            padding: 10px;
             text-align: center;
             box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
         }
@@ -76,8 +76,11 @@
 
 <body>
     <div class="container-fluid">
-        <div class="row mt-3">
-            <div class="col-md-6 offset-md-3 contact-form">
+        <div class="row" style=" border-radius: 5px; ">
+            <?php include("wed.php"); ?>
+        </div>
+        <div class="row mt-3" style="background-color:#fdd5ff;">
+            <div class="col-md-5 offset-md-3 contact-form">
                 <h2 class="form-title">CONTACT US</h2>
                 <form action="#" method="POST">
                     <div class="form-group">
@@ -98,13 +101,21 @@
                     <button type="submit" class="btn btn-submit">Submit</button>
                 </form>
 
+                
+            </div>
+            <div class="col-3">
                 <div class="contact-details">
                     <p><strong>WhatsApp:</strong> +256 708342426</p>
                     <p><strong>Twitter:</strong> <a href="https://twitter.com/drkirabo" target="_blank">@drkirabo</a></p>
                     <p><strong>Email:</strong> <a href="mailto:kirabo58@gmail.com">kirabo58@gmail.com</a></p>
                 </div>
-            </div>
+            </div>   
         </div>
+        <?php  include("view.php");?>
+        <div class="row" style="background-color:#333; border-radius: 10px;">
+            <?php include("footer.php") ;?>
+        </div>
+    </div>
     </div>
     <script src="js/bootstrap.min.js"></script>
 </body>

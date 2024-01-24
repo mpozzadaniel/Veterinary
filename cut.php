@@ -56,9 +56,7 @@ if(!$result){
                             </div>
                         </div>
                     </div>
-                    <div  class="col-md-6">
-                        <?php include("dad.php") ;?>
-                    </div>
+                    
                 </div>
             <?php
             }
@@ -68,7 +66,7 @@ if(!$result){
 
     
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-    <script src="bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <script>
     $(document).ready(function () {
         $('#myCarousel').carousel();

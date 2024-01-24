@@ -6,7 +6,10 @@
     <title>HOME</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <style>
-        
+        .container-fluid {
+            width: 100%;
+            margin: 0px;
+        }
         .hero {
             position: relative;
             text-align: center;
@@ -61,7 +64,7 @@
 
         .about {
             background-color: #fff;
-            padding: 80px 0;
+            padding:  0px;
             text-align: center;
             box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
         }
@@ -86,8 +89,8 @@
 </head>
 <body>
     <div class="container-fluid">
-        <div class="row" style="background-color:#DBC078; border-radius: 20px;  border:solid green 2px">
-            <?php include("van.php"); ?>
+        <div class="row" style=" border-radius: 5px; ">
+            <?php include("wed.php"); ?>
         </div>
         <div class="row">
 

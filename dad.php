@@ -12,9 +12,7 @@
             color: #495057; /* Dark Gray */
         }
 
-        .container-fluid {
-            padding: 20px;
-        }
+      
 
         .testimonial-form {
             background-color: #ffffff; /* White */

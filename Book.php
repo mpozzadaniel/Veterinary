@@ -28,7 +28,8 @@
         .cta-button:hover {
             background-color: #D35400;
 
-        }
+        
+        }    
 
         .booking-form {
             background-color: #ffe1ea ; 
