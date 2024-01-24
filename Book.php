@@ -13,16 +13,30 @@
             background-color: #f5f5f5; 
             color: #333; 
         }
+        .cta-button {
+            display: inline-block;
+            padding: 15px 30px;
+            background-color: #EC7063;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px;
+            font-weight: bold;
+           
+        }
 
-        .container-fluid {
-            padding: 20px;
+        .cta-button:hover {
+            background-color: #D35400;
+
         }
 
         .booking-form {
-            background-color: #fff; 
-            border: 4px solid #ff4081; 
+            background-color: #ffe1ea ; 
+            border: 1px solid #ff4081; 
             border-radius: 10px;
             padding: 30px;
+            margin-top: 20px; /* Adjust the value as needed */
+            margin-bottom: 20px;
             box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
         }
 
@@ -32,6 +46,10 @@
             margin-bottom: 30px;
         }
 
+        col{
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
         .form-group {
             margin-bottom: 20px;
         }
@@ -74,7 +92,10 @@
 
 <body>
     <div class="container-fluid">
-        <div class="row">
+        <div class="row" style=" border-radius: 5px; ">
+            <?php include("wed.php"); ?>
+        </div>
+        <div class="row" style="background-color:#ffe1f9 ">
             <div class="col-lg-6 mx-auto">
                 <form class="booking-form" action="proccess-book.php" method="POST">
                     <div class="form-title">
@@ -101,9 +122,12 @@
                         <input type="text" name="DateAndTime" id="DateAndTime" class="form-control"
                             placeholder="mm/dd/yyyy" autocomplete="off" required>
                     </div>
-                    <button class="btn btn-secondary">Book Now</button>
+                    <button class="btn cta-button">Book Now</button>
                 </form>
             </div>
+        </div>
+        <div class="row" style="background-color:#333; border-radius: 10px;">
+            <?php include("footer.php") ;?>
         </div>
     </div>
     <script src="js/bootstrap.min.js"></script>

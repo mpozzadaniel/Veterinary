@@ -5,14 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proffecianal Exprience</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        h3{
+            color: #00825b;
+            text-decoration: underline;
+        }
+        .h1{
+            color: #821a00;
+        }
+        
+       
+        li:before { content:"\2714\0020"; }  /* OR */
+      
+        ul      { list-style-type: none; }
+
+    </style>
 </head>
 <body>
     <div class="container-fluid">
-        <div class="row" style="background-color:#DBC078; border-radius: 20px;  border:solid green 2px">
-            <?php include("van.php"); ?>
+        <div class="row" style=" border-radius: 5px; ">
+            <?php include("wed.php"); ?>
         </div>
-        <div class="row">
-            <h1> Professional experience </h1>
+        <div class="row" style="background-color:#ffc3d5;">
+            <h1 class="h1"> Professional experience </h1>
             <h3>2023: Intern TAPROD Project under AFROHUN Uganda</h3>
             <ul>
                 <li>Collaborating with Dr. James Muleme, a PHD Fellow on a three-month project, gaining hands-on experience in emerging Zoonotic Diseases (ZD) and One Health concepts.</li>
@@ -31,8 +46,8 @@
             </ul>
             <h3>2022_2023: Veterinary In charge at KS Vet Pharmacy </h3>
             <ul>
-    <li></li>Representing the pharmacy at NDA
-    <li></li>Veterinary drugs prescription and animal management advice to clients.
+                <li>Representing the pharmacy at NDA</li>
+                <li>Veterinary drugs prescription and animal management advice to clients.</li>
             </ul>
             <h3>2022: Extension worker under COCTU</h3>
             <ul>

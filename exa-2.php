@@ -14,27 +14,10 @@
       color: #333;
     }
 
-    header {
-      background-color: #ff7b9c;
-      padding: 20px;
-      color: white;
-      text-align: center;
-    }
-
-    nav {
-      background-color: #ff477e;
-      padding: 10px;
-      text-align: center;
-    }
-
-    nav a {
-      color: white;
-      text-decoration: none;
-      margin: 0 15px;
-    }
+  
 
     .container-fluid {
-      width: 80%;
+      width: 100%;
       margin: 0 auto;
     }
 
@@ -87,18 +70,12 @@
 </head>
 
 <body>
-  <header>
-    <h1>Dr. Kirabo Martha</h1>
-  </header>
-
-  <nav>
-    <a href="#">Home</a>
-    <a href="#">About</a>
-    <a href="#">Services</a>
-    <a href="#">Contact</a>
-  </nav>
+ 
 
   <div class="container-fluid">
+    <div class="row" style="background-color:#DBC078; border-radius: 5px;  border:solid green 2px">
+      <?php include("wed.php"); ?>
+    </div>
     <div class="row about-section">
       <div class="container-img">
         <img src="fes.jpg" alt="Dr. Kirabo Martha performing surgery">

@@ -8,38 +8,39 @@
     <style>
       
 
-        h1 {
+        .h1 {
             color:chocolate  ;
-            text-align: center;
+           
             margin-bottom: 20px;
     
         }
+        li{
+            font-size: 18px       }
 
-ul:first-child  li:before { content:"\2713\0020"; }  /* OR */
-ul:nth-child(2) li:before { content:"\2714\0020"; }  /* OR */
-ul:last-child   li:before { content:"\2611\0020"; }
-ul      { list-style-type: none; }
+       
+       li:before { content:"\2611\0020"; }
+        ul      { list-style-type: none; }
 
     </style>
 </head>
 <body>
     <div class="container-fluid">
-        <div class="row" style="background-color:#DBC078; border-radius: 20px;  border:solid green 2px">
-            <?php include("van.php"); ?>
+        <div class="row" style=" border-radius: 5px; ">
+            <?php include("wed.php"); ?>
         </div>
-        <div class="row" style="background-color: #b4c3eb; border:2px solid green; border-radius:20px">
+        <div class="row" style="background-color: #ffd7e3 ;  border-radius:5px">
         <div >
-            <u style="color:green;"> <h1><i>Qualifications</i></h1></u>
+            <h1 class="h1">Qualifications</h1>
             <ul>
                 <p><li>Dr Kirabo possesses excellent qualifications and is still advancing in knowledge and skills.</li></p>
                 <p><li>Master of Veterinary Preventive Medicine (MVPM) Makerere University Kampala</li></p>
-                <li><p>Bachelor of Veterinary Medicine (BVM) Makerere University Kampala</p></li>
-                <li><p>Certificate in Avian influenza Preparedness   FAO Virtual Learning Center</p></li>
-                <li><p>Certificate in Sustainability Food Production through Livestock Health Management, University of Illinois.</p></li>
-                <li><p>Certificate in Chicken behavior and welfare The university of Edinburgh</p></li>
-                <li><p>Certificate Training on Current Topics in Antimicrobial Resistance Makerere University</p></li>
-                <li><p>Certificate in One Health Principles in Infectious Disease Management Makerere University</p></li>
-                <li><p>Certificate in Dairy Production and Management, The Pennsylvania State University</p></li>
+                <p><li>Bachelor of Veterinary Medicine (BVM) Makerere University Kampala</li></p>
+                <p><li>Certificate in Avian influenza Preparedness   FAO Virtual Learning Center</li></p>
+                <p><li>Certificate in Sustainability Food Production through Livestock Health Management, University of Illinois.</li></p>
+                <p><li>Certificate in Chicken behavior and welfare The university of Edinburgh</li></p>
+                <p><li>Certificate Training on Current Topics in Antimicrobial Resistance Makerere University</li></p>
+                <p><li>Certificate in One Health Principles in Infectious Disease Management Makerere University</li></p>
+                <p><li>Certificate in Dairy Production and Management, The Pennsylvania State University</li></p>
             </ul>
         </div>
 

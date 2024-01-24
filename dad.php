@@ -91,7 +91,7 @@
     <div class="container-fluid">
         <div class="row mt-3">
             <div class="col-md-12 offset-md-3 testimonial-form">
-                <h2 class="form-title">LEAVE US A TESTIMONY</h2>
+                <h2 class="form-title">LEAVE A MESSAGE</h2>
                 <form action="proccess-dad.php" method="POST">
                     <div class="form-group name-group">
                         <div>
