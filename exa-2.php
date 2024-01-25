@@ -16,10 +16,7 @@
 
   
 
-    .container-fluid {
-      width: 100%;
-      margin: 0 auto;
-    }
+    
 
     .about-section {
       background-color: #fddfdf;
@@ -36,11 +33,7 @@
       border-radius: 8px;
       position: relative;
     }
-    footer{
-      max-width: 100%;
-      padding: 0px;
-      margin: 0px;
-    }
+    
 
     img {
       max-width: 100%;
@@ -77,14 +70,14 @@
 <body>
  
 
-  <div class="container-fluid">
+  <div class="container-fluid" style="background-color:#2C3E50;">
     <div class="row" style=" border-radius: 5px; ">
       <?php include("wed.php"); ?>
     </div>
     <div class="row about-section"><center>
       <div class="container-img">
        <img src="fes.jpg" alt="Dr. Kirabo Martha performing surgery">
-        <div class="img-label">Dr. Kirabo Martha providing surgery</div>
+        <div class="img-label">Dr. Kirabo Martha carrying out surgery</div>
       </div></center>
       <div class="text">
         <h3>About Dr. Kirabo Martha</h3>
@@ -101,9 +94,8 @@
       </div>
       
     </div>
-    <div class="row">
-      <center><?php include("cut.php")  ;?></center>
-    </div>
+   <div class="row" style="background-color:#fffbfc;">
+     <?php include("cut.php")  ;?>
     <footer>
         
       <?php include("footer.php") ;?>

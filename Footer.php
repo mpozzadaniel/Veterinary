@@ -13,13 +13,12 @@
             background-color: #2C3E50;
             color: #fff;
             text-align: center;
-            padding: 1em;
             border-radius: 10px;
             bottom: 0;
             width: 100%;
         }
 
-        a {
+        #a {
             color: #fff;
             text-decoration: none;
         }
@@ -36,8 +35,8 @@
 
     <footer>
         <p><strong>WhatsApp:</strong> +256 708342426</p>
-        <p><strong>Twitter:</strong> <a href="https://twitter.com/drkirabo" target="_blank">@drkirabo</a></p>
-        <p><strong>Email:</strong> <a href="mailto:kirabo58@gmail.com">kirabo58@gmail.com</a></p>
+        <p><strong>Twitter:</strong> <a id="a" href="https://twitter.com/drkirabo" target="_blank">@drkirabo</a></p>
+        <p><strong>Email:</strong> <a id="a" href="mailto:kirabo58@gmail.com">kirabo58@gmail.com</a></p>
         <hr>
         <p>&copy; 2024 Dr. KIRABO MARTHA| <a href="#">Privacy Policy</a> Designed by:| <a href="mailto:mpozzadaniel@gmail.com">BYUMA DANIEL MPOZZA</a></p>
     </footer>
