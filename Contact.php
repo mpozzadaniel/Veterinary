@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <style>
         body {
-            background-color: #f8f9fa; /* Light Gray */
-            color:#ff94ea; /* Dark Gray */
+            background-color: #f8f9fa;
+            color:#ff94ea; 
         }
 
         .container-fluid {
@@ -17,8 +17,8 @@
         }
 
         .contact-form {
-            background-color: #ffd5ec; /* White */
-            border: 2px solid #ff94b5; /* Blue */
+            background-color: #ffd5ec; 
+            border: 2px solid #ff94b5; 
             border-radius: 10px;
             padding: 10px;
             text-align: center;
@@ -26,7 +26,7 @@
         }
 
         .form-title {
-            color: #007bff; /* Blue */
+            color: #007bff;
             font-size: 24px;
             margin-bottom: 20px;
         }
@@ -37,15 +37,15 @@
 
         label {
             font-weight: bold;
-            color: #343a40; /* Dark Gray */
+            color: #343a40; 
         }
 
         input[type="text"],
         input[type="email"],
         textarea {
-            background-color: #f8f9fa; /* Light Gray */
-            border: 1px solid #ced4da; /* Gray */
-            color: #495057; /* Dark Gray */
+            background-color: #f8f9fa; 
+            border: 1px solid #ced4da;
+            color: #495057; 
             padding: 10px;
             border-radius: 5px;
             width: 100%;
@@ -57,8 +57,8 @@
         }
 
         .btn-submit {
-            background-color: #007bff; /* Blue */
-            color: #ffffff; /* White */
+            background-color: #007bff;
+            color: #ffffff; 
             font-weight: bold;
             padding: 12px;
             border: none;
@@ -69,7 +69,7 @@
         }
 
         .btn-submit:hover {
-            background-color: #0056b3; /* Darker Blue */
+            background-color: #0056b3; 
         }
     </style>
 </head>

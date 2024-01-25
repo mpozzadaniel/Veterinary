@@ -1,26 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HOME</title>
+    <title>Dr. Kirabo Martha, DVM</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <style>
-        .container-fluid {
-            width: 100%; 
-            padding: 0px;
-            margin: 0px;
-           
+        body {
+            background-color: #2C3E50;
+            color: #fff;
+            font-family: 'Arial', sans-serif;
         }
+
+        header {
+            background-color: #34495E;
+            padding: 10px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+
         .hero {
             position: relative;
             text-align: center;
-          
+            margin-top: 50px;
+            margin-bottom: 50px;
         }
 
         .hero img {
             width: 100%;
-            max-width: 12000px;
+            max-width: 1200px;
             height: 500px;
             border-radius: 10px;
             object-fit: cover;
@@ -42,10 +54,8 @@
         }
 
         .hero p {
-            font-size: 30px;
-            color:darkcyan;
+            font-size: 20px;
             margin-bottom: 30px;
-            font-weight: bold;
         }
 
         .cta-button {
@@ -57,7 +67,6 @@
             border-radius: 5px;
             font-size: 18px;
             font-weight: bold;
-           
         }
 
         .cta-button:hover {
@@ -66,14 +75,9 @@
 
         .about {
             background-color: #fff;
-            padding:  0px;
+            padding: 50px;
             text-align: center;
             box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
-        }
-
-        .about-content {
-            max-width: 800px;
-            margin: 0 auto;
         }
 
         .about h2 {
@@ -83,46 +87,51 @@
             color: #333;
         }
 
-       
-       
+        footer {
+            background-color: #34495E;
+            padding: 20px;
+            text-align: center;
+        }
 
-       
+        footer p {
+            margin: 0;
+            font-size: 16px;
+        }
     </style>
 </head>
+
 <body>
-    <div class="container-fluid" style="background-color:#2C3E50;">
-        <div class="row" style=" border-radius: 5px; ">
-            <?php include("wed.php"); ?>
-        </div>
-        <div class="row">
+    <div class="container-fluid">
+        <header>
+            <h1>Dr. Kirabo Martha, DVM</h1>
+        </header>
 
-        
-  
-
-            <section class="hero">
-                <img src="mat.PNG" alt="Happy Pet">
-                <div class="hero-content">
-                <h1>Compassionate Care for Happy, Healthy Pets</h1>
-                <p>Your Trusted Veterinary Partner for Exceptional Pet Care.</p>
+        <section class="hero">
+            <img src="mat.PNG" alt="Dr. Kirabo Martha, DVM">
+            <div class="hero-content">
+                <h1>Compassionate Veterinary Care for Your Pets</h1>
+                <p>Your Pet's Health is Our Priority.</p>
                 <a href="Book.php" class="cta-button">Schedule an Appointment</a>
-                </div>
-            </section>
+            </div>
+        </section>
 
-            <section id="about" class="about">
-                <div class="about-content">
-                <h2>About Us</h2>
-                <p></p>
-                </div>
-            </section>
+        <section id="about" class="about">
+            <div class="about-content">
+                <h2>About Dr. Kirabo Martha, DVM</h2>
+                <p>Passionate about providing high-quality and personalized care to pets. With years of experience and a deep love for animals, Dr. Kirabo is committed to ensuring your pet's well-being.</p>
+            </div>
+        </section>
 
-            <?php include("view.php") ;?>
-        </div>
+        <section id="services" class="services">
+            <?php include("services.php"); ?>
+        </section>
+
         <footer>
-        
-            <?php include("footer.php") ;?>
-            
+            <p>&copy; 2024 Dr. Kirabo Martha, DVM. All rights reserved.</p>
         </footer>
     </div>
+
     <script src="js/bootstrap.min.js"></script>
 </body>
+
 </html>

@@ -49,7 +49,7 @@
         textarea {
             background-color: #f8f9fa; /* Light Gray */
             border: 1px solid #ced4da; /* Gray */
-            color: #495057; /* Dark Gray */
+            color: #495057;
             padding: 10px;
             border-radius: 5px;
             width: 100%;
@@ -68,8 +68,8 @@
         }
 
         .btn-submit {
-            background-color: #ff4081; /* Pink */
-            color: #ffffff; /* White */
+            background-color: #ff4081;
+            color: #ffffff; 
             font-weight: bold;
             padding: 12px;
             border: none;
@@ -80,7 +80,7 @@
         }
 
         .btn-submit:hover {
-            background-color: #d81b60; /* Darker Pink */
+            background-color: #d81b60; 
         }
     </style>
 </head>

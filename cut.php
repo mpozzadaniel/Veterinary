@@ -25,7 +25,7 @@ if(!$result){
            
             while ($row = mysqli_fetch_assoc($result)) {
             ?>
-                <div class="row">
+                <div class="row" style="background-color:#ffe2e9 ;">
                     <div class="col-md-4">
                         <h1>HAPPY CLIENTS</h1>
                         <div id="myCarousel" class="carousel slide" data-ride="carousel" data-bs-ride="carousel" data-bs-interval="3000">
@@ -55,7 +55,34 @@ if(!$result){
                                 ?>
                             </div>
                         </div>
+                        
                     </div>
+                    <div class="col-md-6">
+                        <div id="myCarousel" class="carousel slide" data-ride="carousel" data-bs-ride="carousel" data-bs-interval="3000">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active"> <!-- Note: Added 'active' class to the first item -->
+                                    <img src="sin.jpg" alt="">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="diy.jpg" alt="fhdhfdhsuusdsundsjfsjs">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="hot.jpg" alt="">
+                                </div>
+                                <!-- Add the rest of your carousel items here -->
+                            </div>
+                            <!-- Add carousel controls and indicators -->
+                            <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+
                     
                 </div>
             <?php
