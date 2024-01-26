@@ -33,11 +33,17 @@
       border-radius: 8px;
       position: relative;
     }
-    
+    .img{
+      width: 300px;
+      height: 300px;
+      object-fit: cover;
+    }
 
     img {
+      width: 565px;
       max-width: 100%;
-      height: 500px;;
+      height: 500px;
+      object-fit: cover;
       border-radius: 8px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     }
@@ -49,6 +55,7 @@
       background-color: #ff477e;
       color: white;
       padding: 10px;
+      margin-left: 15px;
       border-bottom-right-radius: 8px;
     }
 

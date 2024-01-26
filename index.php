@@ -103,14 +103,16 @@
                 <img src="mat.PNG" alt="Happy Pet">
                 <div class="hero-content">
                 <h1>Compassionate Care for Happy, Healthy Pets</h1>
-                <p>Your Trusted Veterinary Partner for Exceptional Pet Care.</p>
-                <a href="Book.php" class="cta-button">Schedule an Appointment</a>
+                <p>Dr Kirabo possesses excellent qualifications and is still advancing in knowledge and skills.</p>
+                <a href="exa-2.php" class="cta-button">
+                    
+                </a>
                 </div>
             </section>
 
             <section id="about" class="about">
                 <div class="about-content">
-                <h2>About Us</h2>
+                <a href="" class="cta-button"></a>
                 <p></p>
                 </div>
             </section>
