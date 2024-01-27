@@ -15,7 +15,7 @@
 
     mysqli_stmt_execute($statement);
     echo"data submitteted successfully";
-    header("Location: dad.php");
+    header("Location: index.php");
     exit();
    
 ?>

@@ -3,10 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <style>
         body {
             margin: 0;
             font-family: 'Arial', sans-serif;
+            margin-bottom: 30px;
         }
 
         footer {
@@ -14,7 +16,7 @@
             color: #fff;
             text-align: center;
             border-radius: 10px;
-            bottom: 0;
+            bottom: 10px;
             width: 100%;
         }
 

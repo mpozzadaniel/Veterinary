@@ -34,7 +34,7 @@ if(!$result){
             ?>
                 <div class="row" style="background-color:#ffe2e9 ;">
                     <div class="col-md-4">
-                        <h1>HAPPY CLIENTS</h1>
+                        <h1></h1>
                         <div id="myCarousel" class="carousel slide" data-ride="carousel" data-bs-ride="carousel" data-bs-interval="3000">
                             <div class="carousel-inner">
                                 <?php

@@ -19,9 +19,9 @@
         }
 
         .hero img {
-            width: 100%;
-            max-width: 12000px;
-            height: 500px;
+            width: 8000px;
+            max-width: 1000px;
+            height: 900px;
             border-radius: 10px;
             object-fit: cover;
             box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
@@ -100,13 +100,14 @@
   
 
             <section class="hero">
-                <img src="mat.PNG" alt="Happy Pet">
+                <img src="cgh.JPG" alt="Happy Pet">
                 <div class="hero-content">
-                <h1>Compassionate Care for Happy, Healthy Pets</h1>
+                <a href="exa-2.php" class="cta-button">  QUALIFICATIONS </a>
+                <!--<h1>Compassionate Care for Happy, Healthy Pets</h1>-->
                 <p>Dr Kirabo possesses excellent qualifications and is still advancing in knowledge and skills.</p>
-                <a href="exa-2.php" class="cta-button">
-                    
-                </a>
+                
+              
+               
                 </div>
             </section>
 

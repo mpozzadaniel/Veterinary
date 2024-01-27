@@ -19,14 +19,14 @@
             border: 4px solid #ff4081; /* Pink */
             border-radius: 10px;
            max-width:1000cm;
-           max-height: 600px;
+           height: 550px;
             padding: 30px;
             text-align: center;
             box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
         }
         form{
             width: 500px;
-            height: 320px;
+            height: 350px;
         }
 
         .form-title {
@@ -94,19 +94,20 @@
                     <div class="form-group name-group">
                         <div>
                             <label for="FirstName">First Name</label>
-                            <input type="text" id="FirstName" class="form-control" name="FirstName"
-                                placeholder="Your First Name" autocomplete="off" required>
+                            <input type="text" id="FirstName" class="form-control" name="FirstName" placeholder="Your First Name" autocomplete="off" required>
                         </div>
                         <div>
                             <label for="LastName">Last Name</label>
-                            <input type="text" id="LastName" class="form-control" name="LastName"
-                                placeholder="Your Last Name" autocomplete="off" required>
+                            <input type="text" id="LastName" class="form-control" name="LastName" placeholder="Your Last Name" autocomplete="off" required>
                         </div>
                     </div>
                     <div class="form-group">
+                        <label for="Relationship">Relationship to Me:</label>
+                        <input type="Text" id="Text" class="form-control" name="Relationship" placeholder="Relationship to Me" autocomplete="off" required>
+                    </div>
+                    <div class="form-group">
                         <label for="Place">Place</label>
-                        <input type="Text" id="Text" class="form-control" name="Place" placeholder="Your Place"
-                            autocomplete="off" required>
+                        <input type="Text" id="Text" class="form-control" name="Place" placeholder="Your Place" autocomplete="off" required>
                     </div>
                     <div class="form-group">
                         <label for="Compliment">Compliment:</label>
