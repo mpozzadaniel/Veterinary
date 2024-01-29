@@ -26,7 +26,7 @@
         }
 
         .form-title {
-            color: #007bff;
+            color: #ff4081;
             font-size: 24px;
             margin-bottom: 20px;
         }
@@ -57,7 +57,7 @@
         }
 
         .btn-submit {
-            background-color: #007bff;
+            background-color: #ff4081;
             color: #ffffff; 
             font-weight: bold;
             padding: 12px;
@@ -69,7 +69,7 @@
         }
 
         .btn-submit:hover {
-            background-color: #0056b3; 
+            background-color: #d81b60; 
         }
     </style>
 </head>
@@ -105,13 +105,13 @@
             </div>
             <div class="col-3">
                 <div class="contact-details">
-                    <p><strong>WhatsApp:</strong> +256 708342426</p>
-                    <p><strong>Twitter:</strong> <a href="https://twitter.com/drkirabo" target="_blank">@drkirabo</a></p>
-                    <p><strong>Email:</strong> <a href="mailto:kirabo58@gmail.com">kirabo58@gmail.com</a></p>
+                    <p style="color:black;"><strong style="color:#ff4081;">WhatsApp:</strong> +256 708342426</p>
+                    <p><strong style="color:#ff4081;">Twitter:</strong> <a href="https://twitter.com/drkirabo" target="_blank">@drkirabo</a></p>
+                    <p><strong style="color:#ff4081;">Email:</strong> <a href="mailto:kirabo58@gmail.com">kirabo58@gmail.com</a></p>
                 </div>
             </div>   
         </div>
-        <?php  include("view.php");?>
+       
         <div class="row" style="background-color:#333; border-radius: 10px;">
             <?php include("footer.php") ;?>
         </div>

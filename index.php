@@ -21,7 +21,7 @@
         .hero img {
             width: 8000px;
             max-width: 1000px;
-            height: 900px;
+            height: 1400px;
             border-radius: 10px;
             object-fit: cover;
             box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
@@ -100,7 +100,7 @@
   
 
             <section class="hero">
-                <img src="cgh.JPG" alt="Happy Pet">
+                <img src="dcwq.jpg" alt="Happy Pet">
                 <div class="hero-content">
                 <a href="exa-2.php" class="cta-button">  QUALIFICATIONS </a>
                 <!--<h1>Compassionate Care for Happy, Healthy Pets</h1>-->
@@ -118,7 +118,7 @@
                 </div>
             </section>
 
-            <?php include("view.php") ;?>
+            
         </div>
         <footer>
         

@@ -53,7 +53,7 @@ if(!$result){
                                                 </blockquote>
                                             </div>
                                             <div class="card-footer">
-                                                <h4>From:<?php echo $row['Place']; ?></h4>
+                                                <h5>From:<?php echo $row['Place']; ?></h5>
                                             </div>
                                         </div>
                                     </div>

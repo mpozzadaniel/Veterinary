@@ -8,7 +8,7 @@
         body {
             margin: 0;
             font-family: 'Arial', sans-serif;
-            margin-bottom: 30px;
+            margin-bottom: 35px;
         }
 
         footer {

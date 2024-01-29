@@ -102,7 +102,7 @@
       
     </div>
    <div class="row" style="background-color:#fffbfc;">
-     <?php include("cut.php")  ;?>
+    
     <footer>
         
       <?php include("footer.php") ;?>
