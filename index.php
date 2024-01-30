@@ -90,7 +90,7 @@
     </style>
 </head>
 <body>
-    <div class="container-fluid" style="background-color:#2C3E50;">
+    <div class="container-fluid">
         <div class="row" style=" border-radius: 5px; ">
             <?php include("wed.php"); ?>
         </div>

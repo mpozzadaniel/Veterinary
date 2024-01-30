@@ -57,8 +57,8 @@
         }
 
         .btn-submit {
-            background-color: #ff4081;
-            color: #ffffff; 
+            background-color: #d81b60;
+            color:#d81b60; 
             font-weight: bold;
             padding: 12px;
             border: none;
@@ -82,7 +82,7 @@
         <div class="row mt-3" style="background-color:#fdd5ff;">
             <div class="col-md-5 offset-md-3 contact-form">
                 <h2 class="form-title">CONTACT US</h2>
-                <form action="#" method="POST">
+                <form action="#" method="POST" onsubmit="sendEmail(); reset(); return false;">
                     <div class="form-group">
                         <label for="Name">Name</label>
                         <input type="text" id="Name" class="form-control" name="Name" placeholder="Your Name"
@@ -118,6 +118,24 @@
     </div>
     </div>
     <script src="js/bootstrap.min.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+        function sendEmail() {
+            Email.send({
+                Host : "smtp.gmail.com",
+                Username : "kirabo58@gmail.com",
+                Password : "password",
+                To : 'kirabo58@gmail.com',
+                From : document.getElementById("email").value,
+                Subject : "New Contact Form Enquiry",
+                Body : "Name: " + document.getElementById("name").value
+               + "<br> Email: " + document.getElementById("email").value
+               + "<br> Message: " + document.getElementById("massege").value
+                }).then(
+                message => alert(Massage sent successfuly)
+                );
+        }
+    </script>
 </body>
 
 </html>
