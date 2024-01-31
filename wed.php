@@ -37,7 +37,7 @@
    
    
     <a href="quoli.php">QUALIFICATIONS</a>
-    <a href="Pro.php">PROFFECIANAL EXPRIENCE</a>
+    <a href="Pro.php">PROFESSIONAL EXPERIENCE</a>
    
     <a href="exa-2.php">ABOUT</a>
    

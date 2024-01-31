@@ -35,7 +35,7 @@
     <div class="container-fliud">
         <div class="row">
             <footer>
-                <p><strong>WhatsApp:</strong> +256 708342426</p>
+                <p><strong>WhatsApp:</strong> +256 708342426 </a></p>
                 <p><strong>Twitter:</strong> <a id="a" href="https://twitter.com/drkirabo" target="_blank">@drkirabo</a></p>
                 <p><strong>Email:</strong> <a id="a" href="mailto:kirabo58@gmail.com">kirabo58@gmail.com</a></p>
                 <hr>

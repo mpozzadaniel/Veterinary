@@ -94,7 +94,7 @@
         <div class="row" style=" border-radius: 5px; ">
             <?php include("wed.php"); ?>
         </div>
-        <div class="row">
+        <div class="row" style="background-color:#ffe1ea;">
 
         
   
@@ -102,9 +102,9 @@
             <section class="hero">
                 <img src="dcwq.jpg" alt="Happy Pet">
                 <div class="hero-content">
-                <a href="exa-2.php" class="cta-button">  QUALIFICATIONS </a>
+                
                 <!--<h1>Compassionate Care for Happy, Healthy Pets</h1>-->
-                <p>Dr Kirabo possesses excellent qualifications and is still advancing in knowledge and skills.</p>
+                
                 
               
                
@@ -113,7 +113,7 @@
 
             <section id="about" class="about">
                 <div class="about-content">
-                <a href="" class="cta-button"></a>
+                
                 <p></p>
                 </div>
             </section>

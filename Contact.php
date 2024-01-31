@@ -82,7 +82,7 @@
         <div class="row mt-3" style="background-color:#fdd5ff;">
             <div class="col-md-5 offset-md-3 contact-form">
                 <h2 class="form-title">CONTACT US</h2>
-                <form action="#" method="POST" onsubmit="sendEmail(); reset(); return false;">
+                <form  onsubmit="sendEmail(); reset(); return false;">
                     <div class="form-group">
                         <label for="Name">Name</label>
                         <input type="text" id="Name" class="form-control" name="Name" placeholder="Your Name"
@@ -124,15 +124,15 @@
             Email.send({
                 Host : "smtp.gmail.com",
                 Username : "kirabo58@gmail.com",
-                Password : "password",
+                Password : "50C04A000083D16A95B9A02971EE626FE9E3",
                 To : 'kirabo58@gmail.com',
                 From : document.getElementById("email").value,
                 Subject : "New Contact Form Enquiry",
                 Body : "Name: " + document.getElementById("name").value
-               + "<br> Email: " + document.getElementById("email").value
-               + "<br> Message: " + document.getElementById("massege").value
+                    + "<br> Email: " + document.getElementById("email").value
+                    + "<br> Message: " + document.getElementById("massege").value
                 }).then(
-                message => alert(Massage sent successfuly)
+                message => alert(Massage sent successfully)
                 );
         }
     </script>
