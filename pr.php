@@ -32,7 +32,7 @@
             padding: 20px;
         }
         .row {
-            margin-bottom: 20px;
+           
         }
         .footer {
             background-color: #333;

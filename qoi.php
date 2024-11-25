@@ -116,7 +116,7 @@
 <body>
     <div class="container-fluid">
         <div class="row">
-            <?php include("wed.php"); // Add header include ?>
+            <?php include("wed.php"); ?>
         </div>
 
         <div class="row">

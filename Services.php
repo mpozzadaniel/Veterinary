@@ -47,13 +47,13 @@
 </head>
 <body>
   <div class="card">
-    <img src="sun.jpg" alt="Product Image">
+    <img src="rew.jpg" alt="Product Image">
     <div class="name">Product Name 1</div>
     <div class="price">$19.99</div>
   </div>
 
   <div class="card">
-    <img src="juice.jpg" alt="Product Image">
+    <img src="sin .jpg" alt="Product Image">
     <div class="name">Product Name 2</div>
     <div class="price">$29.99</div>
   </div>

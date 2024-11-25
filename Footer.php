@@ -27,13 +27,19 @@
         a:hover {
             text-decoration: underline;
         }
+        #row {
+            background-color: #333;
+            border-radius: 10px;
+            padding: 20px;
+            color: #fff;
+        }
     </style>
 </head>
 <body>
     
       
     <div class="container-fliud">
-        <div class="row">
+        <div class="row" id="row">
             <footer>
                 <p><strong>WhatsApp:</strong> +256 708342426 </a></p>
                 <p><strong>Twitter:</strong> <a id="a" href="https://twitter.com/drkirabo" target="_blank">@drkirabo</a></p>
